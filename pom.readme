@@ -1,0 +1,6 @@
+Execute the following command from inside the FulfillmentAsAService directory
+to have maven copy the dependencies in the pom.xml into the WEB-INF/lib folder:
+
+cd C:\eclipse-workspace\dev\FaaS
+
+mvn dependency:copy-dependencies -DoutputDirectory=WebContent/WEB-INF/lib
